@@ -42,7 +42,7 @@ useEffect(() => {
           <h2 className="roles-highlight">
            Aspiring Software Developer | Web Developer | Data Analyst
           </h2>
-          <div className="cta-buttons" ><a href="/D_Lokeshwari.pdf" target="_blank" rel="noreferrer" className="btn btn outline">📁 View Resume</a>
+          <div className="cta-buttons" ><a href="/Portfolio/D_Lokeshwari.pdf" target="_blank" rel="noreferrer" className="btn btn outline">📁 View Resume</a>
             <a href="#contact" className="btn outline">📬 Contact Me</a>
           </div>
   <div className="social-icons">
