@@ -31,7 +31,6 @@ useEffect(() => {
           <li><a href="#about">👩‍💼 About</a></li>
           <li><a href="#skills">📊 Skills</a></li>
           <li><a href="#projects">💼 Projects</a></li>
-          <li><a href="#resume">📄 Resume</a></li>
           <li><a href="#contact">📧 Contact</a></li>
         </ul>
       </nav>
@@ -41,7 +40,7 @@ useEffect(() => {
           <h1 className="name-highlight">Lokeshwari <span id="white">Devadula</span></h1>
           <p className="tagline">Crafting clean code with creativity 💡</p>
           <h2 className="roles-highlight">
-            Web Developer | Data Analyst | MERN Stack Intern
+           Aspiring Software Developer | Web Developer | Data Analyst
           </h2>
           <div className="cta-buttons" ><a href="/D_Lokeshwari.pdf" target="_blank" rel="noreferrer" className="btn btn outline">📁 View Resume</a>
             <a href="#contact" className="btn outline">📬 Contact Me</a>
@@ -69,10 +68,10 @@ useEffect(() => {
   <div className="about-left">
     <h2>About <span id="white">Me</span></h2>
     <p>
-      I'm a passionate Computer Science student at Anurag University with a CGPA of 9.51. I enjoy building web applications using the MERN stack, analyzing data, and constantly exploring new technologies.
+      I'm a passionate Computer Science assionate about full-stack development, UI design, and Data analysis
     </p>
     <p>
-      I've completed internships, led IEEE chapters, and worked on projects like a Sales Dashboard and an Expense Tracker. I believe in clean code, continuous learning, and impactful problem-solving.
+      As an active IEEE leader, I’ve organized tech events and outreach programs, combining technical expertise with impactful community engagement.
     </p>
   </div>
   <div className="about-right">
@@ -85,7 +84,7 @@ useEffect(() => {
 </section>
 
 
- <div className="skills-container">
+ <div className="skills-container" id="skills">
   <h2 className="title">Skills &<span id="white"> Technologies</span></h2>
   <div className="skill-row">
     <div className="skill-card">
@@ -164,7 +163,7 @@ useEffect(() => {
     <div className="project-card left">
       <div className="project-content">
         <h3>🍔 Hungry Hault</h3>
-        <p><strong>Feb 2025</strong></p>
+        <p><strong>April 2025</strong></p>
         <p>A sleek restaurant website to browse menus, book tables, and place takeaway or delivery orders. Includes user authentication,
            a 3D-themed landing page, and a modern responsive design.</p>
         <div className="tech-tags">
@@ -181,7 +180,7 @@ useEffect(() => {
         <p><strong>Nov 2024</strong></p>
         <p>Used MySQL, Excel, and Power BI to analyze and visualize sales trends.</p>
         <div className="tech-tags">
-          <span>MySQL</span><span>Power BI</span><span>Excel</span>
+          <span>MySQL</span><span>Power BI</span><span>Excel</span><span>DAX</span>
         </div>
         <div className="project-links">
           <a href="https://github.com/lokeshwari-02/Sales_Analysis">🔗 GitHub</a>
@@ -225,12 +224,13 @@ useEffect(() => {
 
     <a className="highlight-card link-card" href="https://leetcode.com/u/Lokeshwari_02/" target="_blank" rel="noreferrer">
       <h3>🧠 LeetCode</h3>
-      <p>Active problem solver on LeetCode. Consistent practice across DSA topics.</p>
+      <p>Solved 200+ problems on LeetCode, building strong problem-solving and algorithmic skills.</p>
     </a>
 
-    <a className="highlight-card link-card" href="https://www.hackerrank.com/YOUR_USERNAME" target="_blank" rel="noreferrer">
+    <a className="highlight-card link-card" href="https://www.hackerrank.com/profile/lokeshwari_" target="_blank" rel="noreferrer">
       <h3>🧪 HackerRank</h3>
-      <p>5⭐ in Java | Certified in Problem Solving. Practicing algorithms and SQL.</p>
+      <p>I’ve earned certifications and skill badges on HackerRank, reflecting my strengths across multiple domains.
+Highlights include Java (4⭐), Python (4⭐), SQL (3⭐), and relevant coding certifications</p>
     </a>
 
 
