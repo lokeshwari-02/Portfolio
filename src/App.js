@@ -198,7 +198,7 @@ useEffect(() => {
           <span>JavaScript</span><span>HTML</span><span>React</span><span>Vite</span>
         </div>
         <div className="project-links">
-          <a href="https://github.com/lokeshwari-02/sales-analysis" target="_blank" rel="noopener noreferrer">🔗 GitHub</a>
+          <a href="https://github.com/lokeshwari-02/SQL_Music_Store_Analysis" target="_blank" rel="noopener noreferrer">🔗 GitHub</a>
         </div>
       </div>
     </div>
