@@ -240,7 +240,7 @@ Highlights include Java (4⭐), Python (4⭐), SQL (3⭐), and relevant coding c
 
 <section className="section" id="contact">
   <h2><span className="title">Let's</span> <span id="white">Connect</span></h2>
-  <p className="contact-intro">Open to collaborations, mentorships, and meaningful conversations ✨</p>
+  <p className="contact-intro">Open to collaborations, and meaningful conversations ✨</p>
 
   <div className="contact-cards">
     <a href="mailto:lokeshwaridevadula@gmail.com" className="contact-card" target="_blank">
