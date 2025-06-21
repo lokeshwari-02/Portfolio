@@ -46,10 +46,10 @@ useEffect(() => {
             <a href="#contact" className="btn outline">📬 Contact Me</a>
           </div>
   <div className="social-icons">
-  <a href="https://github.com/lokeshwari-02" target="_blank" rel="noopener noreferrer" title="GitHub">
+  <a href="https://github.com/lokeshwari-02" target="_blank"  rel="noreferrer" title="GitHub">
     <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" className="social-icon" />
   </a>
-  <a href="https://linkedin.com/in/lokeshwari-devadula-o02102004/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+  <a href="https://linkedin.com/in/lokeshwari-devadula-o02102004/" target="_blank" rel="noreferrer" title="LinkedIn">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" className="social-icon white-icon " />
   </a>
   <a href="mailto:lokeshwaridevadula@gmail.com" title="Email">
@@ -76,7 +76,7 @@ useEffect(() => {
   </div>
   <div className="about-right">
     <img
-      src="https://avatars.githubusercontent.com/u/114699243?v=4"
+      src="https://i.postimg.cc/FsG3cxmz/img.jpg"
       alt="Lokeshwari Devadula"
       className="about-image"
     />
