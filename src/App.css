@@ -1,5 +1,6 @@
 /* App.css */
 
+
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,10 +9,22 @@ body {
   scroll-behavior: smooth;
  
 }
+
 .section {
   border: none;
   box-shadow: none;
   background: radial-gradient(circle at top left, #2c003e, #0a0a0a 70%);
+    background: transparent;
+    margin-bottom: 0;
+  padding-bottom: 2rem;
+
+}
+
+#certifications, #leadership,#contact,#footer {
+  border: none;
+  margin-top: 0;
+border: none !important;
+  box-shadow: none !important;
 }
 
 * {
@@ -205,6 +218,17 @@ body {
   min-width: 280px;
   width: 100%s;
 }
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-left, .about-right {
+  flex: 1;
+}
 
 .hero-image {
   max-width: 500px;
@@ -329,6 +353,9 @@ ul {
   box-shadow: 0 0 15px #c792ea88;
 }
 /*Skills */
+#skills {
+  background: radial-gradient(circle at top left, #2c003e, #0a0a0a 70%);
+}
 .skills-container {
   display: flex;
   flex-direction: column;
@@ -412,6 +439,9 @@ ul {
 }
 
 /*Projects */
+#projects{
+  background: radial-gradient(circle at top left, #2c003e, #0a0a0a 70%);
+}
 .project-stack {
   display: flex;
   flex-direction: column;
@@ -511,13 +541,66 @@ ul {
     justify-content: center;
   }
 }
+/* Certifications Section */
+#certifications{
+   background: radial-gradient(circle at top left, #2c003e, #0a0a0a 70%);
+}
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1rem;
+}
+.cert-card {
+  background-color: #1e1e2e;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid #f78c6c; /* matching project border */
+  text-align: left;
+  box-shadow: 0 0 12px #c792ea33;
+  color: #ffcb6b;
+  max-width: 450px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 16px #c792ea88;
+}
+
+.cert-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #ffcb6b;
+}
+
+.btn.small {
+  font-size: 0.85rem;
+  padding: 0.45rem 1rem;
+  background-color: #c792ea;
+  color: #1e1e2e;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 0.8rem;
+}
+
+.btn.small:hover {
+  background-image: linear-gradient(to right, #c792ea, #ffb86c);
+}
 
 /* Contact */
 #contact {
-  padding: 3rem 1rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+    padding: 3rem 1rem;
+  margin: 0 auto; /* remove top & bottom margin */
   border: none;
+  background: radial-gradient(circle at top left, #32004f, #0a0a0a 70%);
 }
 
 #contact h2 {
@@ -556,7 +639,11 @@ ul {
 }
 /*Leadership & Activities */
 #leadership{
-  text-align: center
+  text-align: center;
+  background: radial-gradient(circle at top left, #2c003e, #0a0a0a 70%);
+     padding: 3rem 1rem;
+  margin: 0 auto; /* remove top & bottom margin */
+  border: none;
 }
 .highlight-grid {
   display: grid;

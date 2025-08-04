@@ -2,9 +2,16 @@ import React from "react";
 import './App.css';
 import codingimage from './images/main1.avif';
 import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function App() {
-
+useEffect(() => {
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true      // animate only once
+  });
+}, []);
 useEffect(() => {
   const revealCards = () => {
     const cards = document.querySelectorAll('.project-card');
@@ -64,24 +71,27 @@ useEffect(() => {
                 </div>
       </header>
 
-     <section className="section about-section" id="about">
-  <div className="about-left">
-    <h2>About <span id="white">Me</span></h2>
-    <p>
-      I'm a passionate Computer Science assionate about full-stack development, UI design, and Data analysis
+  <section className="section" id="about">
+  <h2>About Me</h2>
+  <div className="about-content">
+    <div className="about-left" data-aos="fade-right">
+      <p>
+        I'm a passionate Computer Science assionate about full-stack development, UI design, and Data analysis</p>
+        <p>
+      As an active IEEE member, I’ve organized tech events and outreach programs, combining technical expertise with impactful community engagement.
     </p>
-    <p>
-      As an active IEEE leader, I’ve organized tech events and outreach programs, combining technical expertise with impactful community engagement.
-    </p>
-  </div>
-  <div className="about-right">
-    <img
-      src="https://i.postimg.cc/FsG3cxmz/img.jpg"
-      alt="Lokeshwari Devadula"
-      className="about-image"
-    />
+    </div>
+
+    <div className="about-right" data-aos="fade-left">
+      <img
+        src="https://i.postimg.cc/FsG3cxmz/img.jpg"
+        alt="Lokeshwari"
+        className="about-image"
+      />
+    </div>
   </div>
 </section>
+
 
 
  <div className="skills-container" id="skills">
@@ -125,7 +135,6 @@ useEffect(() => {
       </div>
     </div>
   </div>
-
 </div>
 <section className="section" id="projects">
   <h2 className="title">My <span id="white">Projects</span></h2>
@@ -205,6 +214,25 @@ useEffect(() => {
 
   </div>
 </section>
+<section className="section" id="certifications">
+  <h2 className="title"><span id="white">📜 Certifications</span></h2>
+  <div className="cert-grid" >
+    <div className="cert-card" data-aos="fade-up">
+      <h3>ServiceNow – Certified System Administrator</h3>
+      <a href="https://drive.google.com/file/d/17gQyI5DZaROPvdhH61g7bYi3muUkI7ib/view" target="_blank" rel="noreferrer" className="btn small">
+        View Certificate
+      </a>
+    </div>
+
+    <div className="cert-card" data-aos="fade-up" data-aos-delay="100">
+      <h3>ServiceNow – Certified Application Developer</h3>
+      <a href="https://drive.google.com/file/d/1Owkw55ofdeE6QIlx8Q8eaq0mcb10jshq/view" target="_blank" rel="noreferrer" className="btn small">
+        View Certificate
+      </a>
+    </div>
+  </div>
+</section>
+
 
 
 <section className="section" id="leadership">
